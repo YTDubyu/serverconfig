@@ -63,7 +63,7 @@ if [ -e server.cfg ]; then
     echo "server config file exists"
 else
     echo "Downloading default fivem config"
-    curl https://raw.githubusercontent.com/YTDubyu/fivemserver/main/server.cfg >> server.cfg
+    curl https://raw.githubusercontent.com/YTDubyu/serverconfig/main/server.cfg >> server.cfg
 fi
 
 mkdir logs/
